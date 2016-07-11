@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:text="Name  : "
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text" />
+
+    <TextView
+        android:text="txtName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textName" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="UserName  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textUserName1" />
+
+        <TextView
+            android:text="txtName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textUserName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Email  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:text="txtName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textEmail" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Address  "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Street  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7" />
+
+        <TextView
+            android:text="txtStreet"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textStreet" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Suite  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8" />
+
+        <TextView
+            android:text="txtSuite"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textSuite" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="City  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9" />
+
+        <TextView
+            android:text="txtCity"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textCity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="ZipCode  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView55" />
+
+        <TextView
+            android:text="txtZipCode"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textZipCode" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Geo   "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView54" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Lat  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView44" />
+
+        <TextView
+            android:text="txtLat"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textLat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Lng  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView57" />
+
+        <TextView
+            android:text="txtLng"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textLng" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Phone  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView53" />
+
+        <TextView
+            android:text="txtPhone"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textPhone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Website  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView58" />
+
+        <TextView
+            android:text="txtZipCode"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textWebsite" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Company   "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView56" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Name  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView45" />
+
+        <TextView
+            android:text="txtName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textCompanyName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="CatchPhrase  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView41" />
+
+        <TextView
+            android:text="txtCatch"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textCatch" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="bs  : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView84" />
+
+        <TextView
+            android:text="txtbs"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textbs" />
+    </LinearLayout>
+</LinearLayout>
